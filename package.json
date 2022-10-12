@@ -6,18 +6,42 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@storybook/addon-docs": "^7.0.0-alpha.37",
+    "eslint_d": "^12.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^7.0.0-alpha.37",
+    "@storybook/addon-essentials": "^7.0.0-alpha.37",
+    "@storybook/addon-interactions": "^7.0.0-alpha.37",
+    "@storybook/addon-links": "^7.0.0-alpha.37",
+    "@storybook/react": "^7.0.0-alpha.37",
+    "@storybook/react-vite": "^7.0.0-alpha.37",
+    "@storybook/testing-library": "^0.0.14-next.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
     "@vitejs/plugin-react": "^2.1.0",
     "autoprefixer": "^10.4.12",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.6",
     "postcss": "^8.4.18",
+    "storybook": "^7.0.0-alpha.37",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
