@@ -10,3 +10,9 @@ npx sb init --builder @storybook/builder-vite --use-npm
 
 # run storybook
 npm run storybook
+
+# install clsx
+npm i --save clsx
+
+# install radix
+npm i @radix-ui/react-slot
