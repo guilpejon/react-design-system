@@ -15,4 +15,4 @@ npm run storybook
 npm i --save clsx
 
 # install radix
-npm i @radix-ui/react-slot
+npm i @radix-ui/react-slot phosphor-react
