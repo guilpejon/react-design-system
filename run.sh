@@ -14,5 +14,5 @@ npm run storybook
 # install clsx
 npm i --save clsx
 
-# install radix
-npm i @radix-ui/react-slot phosphor-react
+# install dependencies
+npm i @radix-ui/react-slot phosphor-react @radix-ui/react-checkbox
